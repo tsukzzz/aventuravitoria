@@ -1,0 +1,33 @@
+body {
+    color: red;
+    background: rgb(39, 38, 38);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+
+button {
+    color: black;
+    background: rgb(235, 235, 40);
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+img{
+    max-height: 110%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

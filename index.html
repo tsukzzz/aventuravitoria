@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AventuraVitória</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/imagem 1.webp">
+            <p>Você acorda em um lugar totalmente desconhecido, com um ar de casa antiga, quadros e objetos caros.
+                Uma figura sorrindo para você, não se parece humana, tem uma aparencia macabra que se apresenta como
+                Mandy, ela te diz que apartir de agora, vai servir ela. Logo após ela te agarra e te leva para um
+                cômodo espaçoso parecido com uma cozinha e lhe serve um chá. Ache um caminho para fugir da Mandy
+                vivo.</p>
+            <button class="btn-proximo" data-proximo="1">Rejeitar o chá.</button>
+            <button class="btn-proximo" data-proximo="2">Aceitar o chá.</button>
+        </div>
+
+
+        <div class="passo" id="passo-1">
+            <p>Mandy ficou raivosa e te disse que você é um ingrato por não beber seu delicioso chá! Faça sua próxima
+                escolha cuidadosamente.</p>
+            <button class="btn-proximo" data-proximo="3">Dizer que não gosta de chá.</button>
+            <button class="btn-proximo" data-proximo="4">Dizer que não está se sentindo bem.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Mandy ficou feliz que você aceitou seu chá! E te pergunta se gostou, responda ela.</p>
+            <button class="btn-proximo" data-proximo="5">Dizer que sim</button>
+            <button class="btn-proximo" data-proximo="6">Pedir para ver a cozinha.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Mandy entende, se acalma e fica triste por não ter perguntado se lhe agradava, ela te serve um café, você
+                toma. Você diz que está cansado, ela te direciona à um corredor</p>
+            <button class="btn-proximo" data-proximo="7">Seguir Mandy.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/game iver">
+            <p>Você morreu. Mandy acreditava que seu chá poderia curar seu mal-estar e ficou furiosa por você ter
+                rejeitado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Ela ficou extremamente feliz! após isso ela te direciona para seu quarto, ela imagina que você está
+                cansado</p>
+            <button class="btn-proximo" data-proximo="7">Seguir Mandy.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ela se sente um pouco insegura, mas te direciona a cozinha.</p>
+            <button class="btn-proximo" data-proximo="8">Ver a cozinha.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No fim do corredor há um cômodo, onde Mandy diz ser seu quarto e fecha a porta. Tudo é organizado, a sua
+                esquerda e direta tem portas.</p>
+            <button class="btn-proximo" data-proximo="9">Abrir a porta da esquerda.</button>
+            <button class="btn-proximo" data-proximo="10">Abrir a porta da direita.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Após o balcão onde tomou o chá, havia uma grande cozinha que exalava um cheiro horrível, era carne podre
+                em conjunto de vegetais. Seu estômago revirou em pensar do que era aquele chá, e se arrepende de ter
+                bebido, você diz a criatura que está cansado e precisa descansar. Mandy te direciona a um corredor. </p>
+            <button class="btn-proximo" data-proximo="7">Seguir Mandy.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Com cuidado você abre a porta emperrada, que faz um barulho estridente, com medo da figura você se
+                esconde. Ufa! era um banheiro.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o banheiro.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ocioso, você abre a porta, o que faz um barulho estridente, era uma espécie de porão no qual você vê uma
+                luz no final.</p>
+            <button class="btn-proximo" data-proximo="12">Explorar o porão.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/game iver">
+            <p>Você vê uma janela grande o suficiente para fugir, em quanto estava atravessando a janela, Mandy chama
+                seu nome, pois foi acordada pelo barulho. Você está preso, ela te acha e fica triste por ter traído a
+                confiança dela, disse que você não é a criança certa para ela. Você morreu.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/voce ganhou final.avif">
+            <p>Seguindo a luz, você continua correndo desesperadamente, quando escuta um barulho nas suas costas. Era
+                Mandy, ela despertou pelo barulho da porta, mas continuou correndo em direção da luz, abre a porta que
+                transmitia a luz e fecha na cara da aberração. Você sobreviveu, parabéns!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
